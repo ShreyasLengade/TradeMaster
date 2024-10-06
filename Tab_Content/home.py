@@ -13,7 +13,7 @@ card_height = '10vh'
 home_LO = html.Div([
     html.Div([
 
-        html.H4("Welcome to Python4Trading.com:"),
+        html.H4("Welcome to Trade Master:"),
         html.P("I created this site to showcase how an interactive web analytics application can be constructed using Python and its associated packages, including Dash, Plotly, and Scikit-learn. Navigate the tabs above to delve deeper and explore the various features."),
         html.P("For the Python code used in these demos, as well as other valuable Python resources, please refer to the 'About Me' section."),
         html.P(['Disclaimer: The financial data presented is sourced from the "yfinance" Python package, which is freely available. Please note that the reliability and accuracy of this data cannot be guaranteed. All analysis results are intended for educational purposes only and should not be construed as investment advice.'], className='note')

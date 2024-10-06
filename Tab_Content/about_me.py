@@ -18,12 +18,15 @@ about_me_LO = html.Div([
 
         html.Div([
 
-            html.P("I am Sathya Jayagopi, a seasoned Software Developer with over 12 years of experience spanning Software Development and Test Management. My passion lies in crafting Interactive Data Analytic web applications, where I take immense pleasure in uncovering hidden patterns within intricate data sets, revealing actionable insights. As a tech enthusiast and lifelong learner, I'm always on the hunt for the latest advancements in the ever-evolving landscape of technology. My intrigue with the intricacies of finance has led me to channel my technical prowess into building web app like this website, aiming to educate others in technology and finance."),
+            html.P("I am Shreyas Lengade, with experience in software development, data analysis, data engineering, and quality assurance. My passion lies in developing data-driven applications, crafting dynamic dashboards, and gathering requirements to deliver impactful solutions. I take great satisfaction in analyzing complex datasets, uncovering hidden insights, and turning them into actionable results that drive business value. As a tech enthusiast and lifelong learner, I am always eager to explore the latest advancements in the ever-evolving world of technology. "),
 
-            html.P([html.A("LinkedIn", href='https://www.linkedin.com/in/sathya-jayagopi/',
+            html.P([html.A("LinkedIn", href='https://www.linkedin.com/in/shreyas-lengade-6b32971a3/',
                            target='_blank', className='libutton')], className='home_text'),
 
-            html.P([html.A("GitHub", href='https://github.com/sathjay?tab=repositories',
+            html.P([html.A("GitHub", href='https://github.com/ShreyasLengade',
+                           target='_blank', className='libutton')], className='home_text'),
+
+            html.P([html.A("Portfolio", href='https://my-portfolio-eight-delta-14.vercel.app/',
                            target='_blank', className='libutton')], className='home_text'),
 
         ], className='description')

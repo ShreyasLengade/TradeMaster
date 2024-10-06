@@ -5,7 +5,7 @@ metaTags = [
 
 external_stylesheets = [metaTags]
 
-app = dash.Dash(__name__, meta_tags=metaTags, external_stylesheets = external_stylesheets,title = 'Python4Trading',
+app = dash.Dash(__name__, meta_tags=metaTags, external_stylesheets = external_stylesheets,title = 'Trade Master',
                 suppress_callback_exceptions=True)
 
 server = app.server

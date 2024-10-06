@@ -24,7 +24,7 @@ external_stylesheets = [meta_tags]
 
 today = datetime.date.today()
 year = today.year
-copyright_message = f"© {year} -Sathya Jayagopi. All Rights Reserved."
+copyright_message = f"© {year} - Shreyas Lengade. All Rights Reserved."
 
 server = app.server
 
@@ -62,9 +62,9 @@ app.layout = html.Div([
     html.Div([
 
         html.Div([
-            html.Img(src=app.get_asset_url('python.png'),
+            html.Img(src=app.get_asset_url('Trade Master.png'),
                  className='image'),
-            html.H2(['Python4Trading.com'], className='title'),
+            html.H2(['Trade Master'], className='title'),
 
 
             html.Div([
