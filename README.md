@@ -16,13 +16,115 @@ Welcome to the Trade Master Project! The project was developed to provide differ
 
 ## Features
 
-- **Popular Stocks Dashboard(Home)**: In this section you can check top 6 tech companies stock prices for present day.
-- **Daily Return Analysis**: For the stock selected from the dropdown below, users will be presented with a summary of the stock return, a price chart, the daily percentage price change over time (highlighting volatility clusters), a histogram of daily percent return, a QQ plot, and a KS statistics test. This test assesses whether the daily percentage price changes conform to a Normal Gaussian Distribution.
-- **Stock Return Comparison**: For the four stocks selected from the dropdown below, users can compare metrics including: daily return distribution, 60-day rolling volatility, 60-day rolling Sharpe ratio, 60-day Sortino volatility, and 60-day rolling Sortino ratio.
-- **Portfolio Optimiser**: Select a minimum of 5 stocks from the dropdown list below. This application will extract stock returns, including dividends, from January 2020 and construct portfolios 
-- **Cluster Analysis**: In this tab, users can perform cluster analysis on the financial data of stocks within the Dow 30 index. They can select the input features for the analysis and visualize the resulting clusters in a 3D graph.
-- **Backtest Trading Strategy**: Backtesting allows traders to simulate a trading strategy using historical data, generating results and analyzing risk before committing any actual capital. The underlying theory is that a strategy that worked well in the past is likely to succeed in the future. Conversely, a strategy that performed poorly in the past is likely to do so in the future.
-- **ML Predictions**: From the dropdown menu below, users can select various ML models, stocks, input features, and model parameters to predict the magnitude or direction of stock price changes for the next day.
+# Trade Master Project
+
+## Overview
+Trade Master provides a comprehensive suite of tools for stock and ETF analysis, catering to both novice and experienced investors. This platform offers in-depth visualizations, statistical analysis, portfolio optimization, and machine learning-based predictions, empowering users to make data-driven investment decisions.
+
+---
+
+## Features
+
+### **1. Popular Stocks Dashboard (Home)**
+- Displays the stock prices of the top 6 tech companies for the current day.
+- Offers users a quick overview of key stock market leaders.
+
+---
+
+### **2. Daily Return Analysis**
+The Daily Return Analysis module enables users to evaluate the historical performance of selected ETFs or stocks through interactive tools and visualizations.
+
+#### Features:
+- **Dropdown Selection**:
+  - A dynamic dropdown menu allows users to select from a range of ETFs and stocks, such as SPY (S&P 500 Index ETF), QQQ (Nasdaq 100 Index ETF), and others.
+  
+- **Return Summary**:
+  - Displays key metrics for the selected stock/ETF, including:
+    - Current close price
+    - 1-month, 3-month, 1-year, and 3-year returns (percentage)
+    - Compound Annual Growth Rate (CAGR)
+    - Annualized volatility
+
+- **Price Chart**:
+  - A line chart visualizes the historical price trends over the years, providing insights into long-term performance and growth patterns.
+
+- **Volatility Clusters**:
+  - A scatter plot of daily percentage price changes highlights periods of high volatility to help users identify riskier timeframes.
+
+- **Return Distribution**:
+  - A histogram illustrates the distribution of daily percentage returns, while a box plot provides a summary of outliers, medians, and quartiles.
+
+- **Quantile-Quantile (Q-Q) Plot**:
+  - Visualizes how closely the distribution of daily percentage returns aligns with a theoretical Gaussian (normal) distribution.
+
+- **Kolmogorov-Smirnov (KS) Test**:
+  - Statistically evaluates whether the daily percentage price changes conform to a Normal Gaussian Distribution.
+  - Provides:
+    - KS statistic value
+    - p-value
+    - Conclusion about normality (based on a threshold of p < 0.05)
+
+#### Key Insights:
+This module helps users:
+1. Evaluate **recent and long-term performance**.
+2. Assess **volatility and risk**.
+3. Identify **trends** and significant market events.
+4. Validate the distribution of returns for informed decision-making.
+
+---
+
+### **3. Stock Return Comparison**
+- Users can select up to four stocks from a dropdown menu and compare their financial metrics, including:
+  - Daily return distribution
+  - 60-day rolling volatility
+  - 60-day rolling Sharpe ratio
+  - 60-day rolling Sortino volatility
+  - 60-day rolling Sortino ratio
+- This feature enables comparative analysis to identify outperforming stocks.
+
+---
+
+### **4. Portfolio Optimizer**
+- Allows users to select a minimum of 5 stocks from the dropdown menu.
+- Extracts historical stock returns (including dividends) from January 2020.
+- Constructs optimized portfolios based on user-defined parameters to maximize returns or minimize risk.
+
+---
+
+### **5. Cluster Analysis**
+- Provides tools for clustering financial data from stocks within the Dow 30 index.
+- Users can:
+  - Select input features for clustering.
+  - Visualize resulting clusters in a 3D graph for deeper insights into stock relationships.
+
+---
+
+### **6. Backtest Trading Strategy**
+- Simulates trading strategies using historical stock data.
+- Helps traders:
+  - Analyze the performance and risk of a strategy before committing capital.
+  - Understand whether a strategy that worked well in the past is likely to succeed in the future.
+
+---
+
+### **7. ML Predictions**
+- Allows users to select machine learning models, stocks, input features, and model parameters from a dropdown menu.
+- Predicts the magnitude or direction of stock price changes for the next trading day using advanced machine learning techniques.
+
+---
+
+## How to Use
+- **Start with the Popular Stocks Dashboard** to get a quick overview of top tech companies.
+- Dive deeper into **Daily Return Analysis** for historical performance, volatility, and statistical insights.
+- Compare multiple stocks using the **Stock Return Comparison** feature to identify trends and outperformers.
+- Use the **Portfolio Optimizer** to build diversified investment portfolios.
+- Leverage **Cluster Analysis** to understand the grouping and similarities among stocks.
+- Test and refine your trading strategies with the **Backtest Trading Strategy** feature.
+- Predict stock movements using the **ML Predictions** tool for advanced decision-making.
+
+---
+
+This project serves as a complete toolset for stock and ETF analysis, combining traditional financial analysis with cutting-edge machine learning techniques. Perfect for investors, traders, and analysts looking to make informed decisions in the financial markets.
 
 ## Installation
 
@@ -59,4 +161,4 @@ Below are some examples of the visualizations and analysis you can perform with 
 
 ---
 
-Thank you for checking out our project! If you find it useful, please give it a star ⭐ on GitHub.
+Thank you for checking out my project! If you find it useful, please give it a star ⭐ on GitHub.
